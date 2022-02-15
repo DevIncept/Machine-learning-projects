@@ -40,12 +40,3 @@ For deploying in Heroku first we need to login to the platform. After that conne
 Select the deployment depository and click on connect. After connections are made click on deploy, this will automatically install all the necessary files and run the model. After successful compilation URL will be generated.
 ![Heroku](https://github.com/snozh5/temp/blob/main/Pic_Flight_Pred/heroku.PNG?raw=true)
 
-## Team members
-1. Nadeem 
-2. Vayuputra 
-3. Surbhi 
-
-## Work Distribution
-1. Nadeem: Content, coding, markdown file
-2. Vayuputra: Content
-3. Surbhi: Video and editing
