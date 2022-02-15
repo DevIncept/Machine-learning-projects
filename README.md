@@ -1,6 +1,6 @@
 # Machine-learning-projects
 - [Project1:Parkinson's disease Problem Statement](Project1-Parkinson'sdisease-Problem-Statement.md)
-- []()
+- [Project1:Parkinson's disease](Project1-Parkinson'sdisease.md)
 - []()
 - []()
 - [Project3:Income Prediction](Project3-Income-Prediction.md)
