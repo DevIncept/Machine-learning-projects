@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Prediction</title>
+</head>
+
+<body>
+
+    <div>
+        <form action="{{ url_for('predict')}}" method="post" class="btn-1 outer-shadow hover-in-shadow">
+            <div class="container">
+                <div class="heading">
+                    <h2>Income Prediction</h2>
+                </div>
+                
+                <section class="content">
+                    <div class="result">{{ prediction_text }}</div>
+                    <table>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Age </td>
+                                <td><input class="inputfield" name="age" type="number" placeholder="30"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Workclass </td>
+                                <td><select name="workclass" class="inputfield" required="required">
+                                    <option value="2">State-gov</option>
+                                    <option value="3">Self-emp-not-inc</option>
+                                    <option value="1">Private</option>
+                                    <option value="5">Federal-gov</option>
+                                    <option value="4">Local-gov</option>
+                                    <option value="6">Self-emp-inc</option>
+                                    <option value="0">Without-pay</option>
+                        
+                                </select></td>
+                            </div>
+                        </tr>
+                        
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Education </td>
+                                <td><select name="education" class="inputfield" required="required">
+                                    <option value="12">Bachelors</option>
+                                    <option value="8">HS-grad</option>
+                                    <option value="4">11th</option>
+                                    <option value="13">Masters</option>
+                                    <option value="3">9th</option>
+                                    <option value="9">Some-college</option>
+                                    <option value="10">Assoc-acdm</option>
+                                    <option value="11">Assoc-voc</option>
+                                    <option value="5">7th-8th</option>
+                                    <option value="14">Doctorate</option>
+                                    <option value="15">Prof-school</option>
+                                    <option value="2">5th-6th</option>
+                                    <option value="6">10th</option>
+                                    <option value="1">1st-4th</option>
+                                    <option value="0">Preschool</option>
+                                    <option value="7">12th</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Educationnum </td>
+                                <td><input class="inputfield" name="educationnum" required="required" placeholder="13"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Marital Status </td>
+                                <td><select name="maritalstatus" class="inputfield" required="required">
+                                    <option value="0">Never-married</option>
+                                    <option value="5">Married-civ-spouse</option>
+                                    <option value="4">Divorced</option>
+                                    <option value="2">Married-spouse-absent</option>
+                                    <option value="1">Separated</option>
+                                    <option value="6">Married-AF-spouse</option>
+                                    <option value="3">Widowed</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Occupation </td>
+                                <td><select name="occupation" class="inputfield" required="required">
+                                    <option value="6">Adm-clerical</option>
+                                    <option value="13">Exec-managerial</option>
+                                    <option value="2">Handlers-cleaners</option>
+                                    <option value="12">Prof-specialty</option>
+                                    <option value="1">Other-service</option>
+                                    <option value="9">Sales</option>
+                                    <option value="8">Craft-repair</option>
+                                    <option value="7">Transport-moving</option>
+                                    <option value="4">Farming-fishing</option>
+                                    <option value="5">Machine-op-inspct</option>
+                                    <option value="10">Tech-support</option>
+                                    <option value="11">Protective-serv</option>
+                                    <option value="3">Armed-Forces</option>
+                                    <option value="0">Priv-house-serv</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Relationship </td>
+                                <td><select name="relationship" class="inputfield" required="required">
+                                    <option value="3">Not-in-family</option>
+                                    <option value="4">Husband</option>
+                                    <option value="5">Wife</option>
+                                    <option value="0">Own-child</option>
+                                    <option value="2">Unmarried</option>
+                                    <option value="1">Other-relative</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Race </td>
+                                <td><select name="race" class="inputfield" required="required">
+                                    <option value="3">White</option>
+                                    <option value="2">Black</option>
+                                    <option value="4">Asian-Pac-Islander</option>
+                                    <option value="1">Amer-Indian-Eskimo</option>
+                                    <option value="0">Other</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Sex </td>
+                                <td><select name="sex" class="inputfield" required="required">
+                                    <option value="1">Male</option>
+                                    <option value="0">Female</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Capital gain </td>
+                                 <td><input class="inputfield" name="capitalgain" required="required" placeholder="2009"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Capital loss </td>
+                                 <td><input class="inputfield" name="capitalloss" required="required" placeholder="2042"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Hours per week </td>
+                                 <td><input class="inputfield" name="hoursperweek" required="required" placeholder="40"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div class="align-data">
+                                <td class="que">Native Country </td>
+                                <td><select name="nativecountry" class="inputfield" required="required">
+                                    <option value="24">United-States</option>
+                                    <option value="25">Cuba</option>
+                                    <option value="16">Jamaica</option>
+                                    <option value="37">India</option>
+                                    <option value="5">Mexico</option>
+                                    <option value="21">South</option>
+                                    <option value="12">Puerto-Rico</option>
+                                    <option value="9">Honduras</option>
+                                    <option value="32">England</option>
+                                    <option value="30">Canada</option>
+                                    <option value="31">Germany</option>
+                                    <option value="38">Iran</option>
+                                    <option value="29">Philippines</option>
+                                    <option value="33">Italy</option>
+                                    <option value="20">Poland</option>
+                                    <option value="3">Columbia</option>
+                                    <option value="35">Cambodia</option>
+                                    <option value="18">Thailand</option>
+                                    <option value="17">Ecuador</option>
+                                    <option value="15">Laos</option>
+                                    <option value="40">Taiwan</option>
+                                    <option value="11">Haiti</option>
+                                    <option value="14">Portugal</option>
+                                    <option value="2">Dominican-Republic</option>
+                                    <option value="10">El-Salvador</option>
+                                    <option value="3">France</option>
+                                    <option value="4">Guatemala</option>
+                                    <option value="27">China</option>
+                                    <option value="36">Japan</option>
+                                    <option value="34">Yugoslavia</option>
+                                    <option value="7">Peru</option>
+                                    <option value="0">Outlying-US(Guam-USVI-etc)</option>
+                                    <option value="19">Scotland</option>
+                                    <option value="13">Trinadad&Tobago</option>
+                                    <option value="26">Greece</option>
+                                    <option value="6">Nicaragua</option>
+                                    <option value="8">Vietnam</option>
+                                    <option value="28">Hong</option>
+                                    <option value="22">Ireland</option>
+                                    <option value="23">Hungary</option>
+                                    <option value="1">Holand-Netherlands</option>
+                                </select></td>
+                            </div>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td></td>
+                            <br><td><button id="sub" class="submit-btn" type="submit "><b>Submit</b></button>
+                            <br></td>
+                        </tr>
+                    </table>
+                </section>
+            </div>
+        </form>
+    </div>
+    
+
+    <style>
+    :root{
+    --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+    --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+    --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+    --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+    }
+    .btn-1{
+        font-size: 16px;
+        font-weight: 500;
+        background-color: transparent;
+        line-height: 1.5;
+        cursor: pointer;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+        display: inline-block;
+        border: none;
+        background-color: #F5F5F5;
+    }
+    .btn-1:after{
+        border-radius: 30px;
+    }
+    .outer-shadow{
+        box-shadow: var(--outer-shadow);
+    }
+    .hover-in-shadow{
+        position: relative;
+        z-index: 1;
+    }
+    .hover-in-shadow:hover{
+        box-shadow: var(--outer-shadow-0)
+    }
+    .hover-in-shadow:after{
+        content: '';
+        position: absolute;
+        left:0;
+        top:0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.3s ease;
+        z-index: -1;
+    }
+    .hover-in-shadow:hover:after{
+        box-shadow: var(--inner-shadow);
+    }
+    .container{
+        margin-left: 5%;
+        width: 200%;
+    }
+        form{
+            text-align: center;
+            padding-right: 40%; 
+            margin-top: 20px;
+            margin-left: 14%;
+        }
+        select,input,button {
+            margin-top: 15px;
+            height:40px;
+            width:250%;
+            border-radius: 7px;
+            margin-left: 30%;
+        }
+        .content{
+        margin-left:10%;
+        }
+        
+        button{
+            margin-top: 30px;
+            background-color:#357EC7;
+            color: white;
+            font-size:17px;
+        }
+        
+        h2{
+        margin-left: 100px;
+        padding-top: 10px;
+        font-size: 35px;
+       
+        }
+        
+        .result{
+        font-size: 25px;
+        color: #4863A0;
+        
+        }
+        
+       
+        
+    
+        
+    </style>
+
+</body>
+
+</html>
