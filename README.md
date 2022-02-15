@@ -1,10 +1,14 @@
 # Machine-learning-projects
 - [Project1:Parkinson's disease Problem Statement](Project1-Parkinson'sdisease-Problem-Statement.md)
 - [Project1:Parkinson's disease](Project1-Parkinson'sdisease.md)
+- [Video: Parkibnson's disease](https://youtu.be/GimxznqByy8)📹
 - [Project1:Parkinson's disease Notebook](Project1-Parkinson'sdisease-Notebook.ipynb)
 - [Project2:ParagraphSimilarityCheck](Project2-ParagraphSimilarityCheck.md)
+- [Video: Paragraph Similarity Check](https://youtu.be/wdJy62jGQIU)📹
 - [Project3:Income Prediction](Project3-Income-Prediction.md)
+- [Video: Income Prediction](https://youtu.be/8USkgNZgxq)📹
 - [Project3:Income Prediction Notebook](Income-Prediction/incomeprediction.ipynb)
 - [Project4:Flight Fare Prediction Problem statement](Project4-Flight-Fare-Prediction-Problem-statement.md)
 - [Project4:Flight Fare Prediction](Project4-Flight-Fare-Prediction.md)
+- [Video: Flight Fare Prediction](https://youtu.be/fOyf7WKHdEA)📹
 - [Project4:Flight Fare Prediction Notebook](Project4-Flight-Fare-Prediction.ipynb)
