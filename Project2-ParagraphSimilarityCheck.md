@@ -32,6 +32,6 @@ We removed our stop  words, extracted features , encoded them then tried to meas
 We would get the output like in the image shown above.
 # How to RUN the project
 1.	Install the python packages as mentioned in the 'dependencies.txt' file.
-2.	Now run the ['Project2-ParagraphSimilaritcheck.py'](Project2-ParagraphSimilarityCheck.py) file.
+2.	Now run the ['Project2-ParagraphSimilaritcheck.py'](Project2-ParagraphSimilaritcheck.py) file.
 3.	Input two paragraphs which are needed to be compared and click on 'Upload' button.
 4.	Score will be generated, based on number of keywords which are same for both paragraphs, based on list of top 5 keywords of each paragraph
