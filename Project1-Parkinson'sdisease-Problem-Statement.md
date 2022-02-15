@@ -32,13 +32,4 @@ Link : https://parkinsondiseasepredictor.herokuapp.com/
 </pre> 
 
 
-  ||Name|
-   |-|-|
-   |1|[Hemachandiran.T]()|
-   |2|[Shivansh]()|
-   |2|[Nishi Sus]()|
 
-   - Work flow :bookmark_tabs:
-  - [Hemachandiran.T]() : Worked on Document,Markdown,Model building and making PR requests.
-  - [Shivansh]() : Worked on ML Model deployment on herouku,video recording and explanation
-  - [Nishi Sus]() : Worked on Video edting part.
