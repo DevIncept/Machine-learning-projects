@@ -7,4 +7,4 @@
 - [Project3:Income Prediction Notebook](Income-Prediction/incomeprediction.ipynb)
 - [Project4:Flight Fare Prediction Problem statement](Project4:Flight-Fare-Prediction-Problem-statement.md)
 - [Project4:Flight Fare Prediction](Project4:Flight-Fare-Prediction.md)
-- []()
+- [Project4:Flight Fare Prediction Notebook](Project4:Flight-Fare-Prediction.ipynb)
