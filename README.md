@@ -47,7 +47,7 @@
     </ul>
   </td>
   <td>
-    <a href="https://youtu.be/8USkgNZgxq" target="_blank">Income Prediction Check</a>
+    <a href="https://youtu.be/8USkgNZgxq" target="_blank">Income Prediction </a>
   </td>
   </tr>
   <tr style="text-align:left">
@@ -61,7 +61,7 @@
     </ul>
   </td>
   <td>
-    <a href="https://youtu.be/fOyf7WKHdEA" target="_blank">Flight Fare Prediction Check</a>
+    <a href="https://youtu.be/fOyf7WKHdEA" target="_blank">Flight Fare Prediction </a>
   </td>
   </tr>
   </table>
