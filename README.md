@@ -47,7 +47,7 @@
     </ul>
   </td>
   <td>
-    <a href="https://youtu.be/8USkgNZgxq" target="_blank">Income Prediction </a>
+    <a href="https://youtu.be/8USkgNZgxq8" target="_blank">Income Prediction </a>
   </td>
   </tr>
   <tr style="text-align:left">
