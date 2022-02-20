@@ -176,7 +176,6 @@ pickle.dump(clf, file)
 
 ### Deployment of the Model:
 
-You can get the code here:[repository](https://github.com/Sara-cos/Income_Prediction/app.py).
 We used Heroku and deployed our model using flask...
 
 ![](https://github.com/Sara-cos/Intern-Projects/blob/main/int%20ml-5/Income-Prediction/static/IP2.png)
