@@ -1,14 +1,67 @@
 # Machine-learning-projects
-- [Project1:Parkinson's disease Problem Statement](Project1-Parkinson'sdisease-Problem-Statement.md)
-- [Project1:Parkinson's disease](Project1-Parkinson'sdisease.md)
-- [Video: Parkibnson's disease](https://youtu.be/GimxznqByy8)📹
-- [Project1:Parkinson's disease Notebook](Project1-Parkinson'sdisease-Notebook.ipynb)
-- [Project2:ParagraphSimilarityCheck](Project2-ParagraphSimilarityCheck.md)
-- [Video: Paragraph Similarity Check](https://youtu.be/wdJy62jGQIU)📹
-- [Project3:Income Prediction](Project3-Income-Prediction.md)
-- [Video: Income Prediction](https://youtu.be/8USkgNZgxq)📹
-- [Project3:Income Prediction Notebook](Income-Prediction/incomeprediction.ipynb)
-- [Project4:Flight Fare Prediction Problem statement](Project4-Flight-Fare-Prediction-Problem-statement.md)
-- [Project4:Flight Fare Prediction](Project4-Flight-Fare-Prediction.md)
-- [Video: Flight Fare Prediction](https://youtu.be/fOyf7WKHdEA)📹
-- [Project4:Flight Fare Prediction Notebook](Project4-Flight-Fare-Prediction.ipynb)
+<table>
+  <tr>
+  <th>S.No</th>
+    <th>Project Name</th>
+  <th>Notebook</th>
+  <th>Code</th>
+  <th>Video</th>
+  </tr>
+  
+<tr style="text-align:left">
+  <td>1</td>
+  <td>Parkinson's disease</td>
+  <td><a href="Project1-Parkinson'sdisease-Problem-Statement.html">Explanatory Notebook</a></td>
+  <td>
+    <ul>
+      <li><a href="Project1-Parkinson'sdisease.md">Parkinson's disease Code </a></li>
+      <li><a href="Project1-Parkinson'sdisease-Notebook.ipynb">Parkinson's disease Notebook</a></li>
+    </ul>
+  </td>
+  <td>
+    <a href="https://youtu.be/GimxznqByy8" target="_blank">Parkinson's disease</a>
+  </td>
+  </tr>
+  <tr style="text-align:left">
+  <td>2</td>
+  <td>Paragraph Similarity Check</td>
+  <td><a href="ParagraphSimilarityCheck.html">Explanatory Notebook</a></td>
+  <td>
+    <ul>
+      <li><a href="Project2-ParagraphSimilaritcheck.py">Paragraph Similarity Check Code </a></li>
+      <li><a href="Project2-ParagraphSimilarityCheck.md">Paragraph Similarity Check Notebook</a></li>
+    </ul>
+  </td>
+  <td>
+    <a href="https://youtu.be/wdJy62jGQIU" target="_blank">Paragraph Similarity Check</a>
+  </td>
+  </tr>
+  <tr style="text-align:left">
+  <td>3</td>
+  <td>Income Prediction</td>
+  <td><a href="Project3-Income-Prediction.html">Explanatory Notebook</a></td>
+  <td>
+    <ul>
+      <li><a href="Project3-Income-Prediction.md">Income Prediction Code </a></li>
+      <li><a href="Income-Prediction/incomeprediction.ipynb">Income Prediction Notebook</a></li>
+    </ul>
+  </td>
+  <td>
+    <a href="https://youtu.be/8USkgNZgxq" target="_blank">Income Prediction Check</a>
+  </td>
+  </tr>
+  <tr style="text-align:left">
+  <td>4</td>
+  <td>Flight Fare Prediction</td>
+  <td><a href="Project4-Flight-Fare-Prediction-Problem-statement.html">Explanatory Notebook</a></td>
+  <td>
+    <ul>
+      <li><a href="Project4-Flight-Fare-Prediction.md">Flight Fare Prediction Code </a></li>
+      <li><a href="Project4-Flight-Fare-Prediction.ipynb">Flight Fare Prediction Notebook</a></li>
+    </ul>
+  </td>
+  <td>
+    <a href="https://youtu.be/fOyf7WKHdEA" target="_blank">Flight Fare Prediction Check</a>
+  </td>
+  </tr>
+  </table>
