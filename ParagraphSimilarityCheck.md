@@ -8,10 +8,3 @@ Input two paragraphs in the html webpage, then the list of top 5 keywords for ea
 1. Input two paragraphs which are needed to be compared and click on 'Upload' button.
 1. Score will be generated, based on number of keywords which are same for both paragraphs, based on list of top 5 keywords of each paragraph.
 
-## Video Link
-* https://drive.google.com/file/d/1VqQIvL-ylD0JrHh0GOtZgg-PeUKCe6mt/view
-
-
-## References
-1. https://towardsdatascience.com/keyword-extraction-with-bert-724efca412ea
-1. https://github.com/MaartenGr/KeyBERT
